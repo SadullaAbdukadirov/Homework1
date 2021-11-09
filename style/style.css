@@ -1,0 +1,146 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important; 
+}
+
+:root{
+    --primary-color: #313131;
+    --secondary-color: #E5E5E5;
+    --third-color: #0C0C0C;
+    --notosans-bold: 'Noto-Sans-Bold';
+    --notosans-bold-italic: 'Noto-Sans-Bold-Italic';
+    --notosans-italic: 'Noto-Sans-Italic';
+    --notosans-regular: 'Noto-Sans-Regular';
+}
+
+.header__nav-link{
+    color: #0C0C0C;
+    margin-right: 40px;
+    
+}
+
+.header__nav-list{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: var(--third-color);
+}
+
+.header__input{
+    color: #BBBBBB;
+    width: 630px;
+    font-family: var(--notosans-regular);
+    font-size: 14px;
+    line-height: 19px;
+    padding: 16px 10px;
+}
+
+.header__search-button{
+    color: var(--secondary-color);
+    width: 190px;
+    background: var(--third-color);
+    font-family: var(--notosans-regular);
+    font-size: 14px;
+    line-height: 19px;
+    padding: 16px 17px;
+}
+
+.header__search-button:hover{
+    color: var(--secondary-color); 
+    
+}
+
+.header__search-icon:hover{
+    content: '\f002';
+    
+}
+
+.header__search-button::before{
+    content: '\f002';
+}
+
+.header_top-menu{
+    background: var(--primary-color);
+}
+
+.top__link{
+    color: var(--secondary-color);
+}
+.top__link-dropdown-toggle{
+    color: var(--secondary-color);
+}
+
+.top__link-dropdown-toggle::before{
+    content: '\f106';
+}
+.top__link-dropdown-toggle:hover{
+    color: var(--secondary-color);
+}
+
+.top__link-dropdown{
+    color: var(--secondary-color);
+}
+
+.top__link-dropdown:hover{
+    color: var(--secondary-color);
+}
+
+.top__link::before{
+    content: '\f879';
+}
+
+.top__link:hover{
+    color: var(--secondary-color);
+}
+.header__top-dropdown{
+    background: var(--third-color);
+}
+
+.header__middle-list{
+    color: black;
+}
+
+.nav-link-2{
+    color: var(--third-color);
+    font-family: var(--notosans-regular);
+    font-size: 18px;
+    line-height: 70px;
+   
+}
+.nav-link-2:hover{
+     color: var(--third-color);
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+
+
+.header__carousel-mini-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.header__carousel-title{
+    color:red;
+    font-family: var(--notosans-bold);
+    font-size: 48px;
+    line-height: 70px;
+}
+
+
